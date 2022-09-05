@@ -1,0 +1,37 @@
+footer{
+    background: #2C343E;
+    padding: 47px 0;
+    margin-top: 200px;
+    .footer{
+        display: flex;
+        align-items: center;
+        a{
+            margin: 0;
+        }
+        &-list{
+            display: flex;
+            gap: 32px;
+            margin-left: 103px;
+            li{
+                a{
+                    font-size: 12px;
+                    font-weight: 700;
+                    color: #83888F;
+                }
+                a:hover{
+                    color: #FEFCF7;
+                }
+                a:active{
+                    color: #FEFCF7;
+                }
+            }
+            &--img{
+                margin-left: 370px;
+                display: flex;
+                align-items: center;
+                gap: 24px;
+            }
+        }
+
+    }
+}
